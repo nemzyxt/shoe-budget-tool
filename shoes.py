@@ -19,7 +19,7 @@ class Shoes:
             if budget == self.price:
                 print("You have exact money for the shoes")
             else:
-                print(f"You can get the shoes and have a change \
-                      of {self.change(budget)}")
+                print(f"""You can get the shoes and have a
+                change of {self.change(budget)}""")
 
         exit("Thanks for using our Shoe Budget App :)")
